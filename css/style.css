@@ -1,0 +1,63 @@
+/*.container {
+  background-color: blue;
+  height: 200px;
+}
+
+.col-md-1 {
+  border: 1px solid black;
+  height: 100px;
+}*/
+
+.yellow {
+  background-color: yellow;
+  padding: 30px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+}
+
+.green {
+  background-color: green;
+  height: 50px;
+
+}
+
+.border {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.red {
+  background-color: red;
+  height: 180px;
+}
+
+.lightblue {
+  background-color: lightblue;
+  height: 180px;
+}
+
+.orange {
+  background-color: orange;
+  height: 150px;
+}
+
+.black {
+  background-color: black;
+  height: 50px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .red {
+  background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .blue {
+    background-color: red;
+  }
+}
